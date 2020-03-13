@@ -1,0 +1,11 @@
+<p>oneway-statement works!</p>
+<h3>{{msg}}</h3>
+<button (click)="greetings('안녕하세요')">안녕하세요</button>
+<button on-click="greetings('환영합니다')">환영합니다</button>
+
+<h3>{{msg2}}</h3>
+<app-contact (save)="saveContact($event)"></app-contact>
+<br>
+
+<h3>{{clicked}}</h3>
+<button (myClick)="clicked=$event">클릭</button>
