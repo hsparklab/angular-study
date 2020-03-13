@@ -8,6 +8,10 @@ import { OnewayStatementComponent } from './binding/oneway-statement.component';
 import { TwowayComponent } from './binding/twoway.component';
 import { NgclassComponent } from './binding/ngclass.component';
 import { NgstyleComponent } from './binding/ngstyle.component';
+import { NgifComponent } from './binding/ngif.component';
+import { NgswitchComponent } from './binding/ngswitch.component';
+import { NgforComponent } from './binding/ngfor.component';
+import { RefComponent } from './binding/ref.component';
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'profile', component: ProfileComponent},
@@ -17,6 +21,10 @@ const routes: Routes = [
   {path: 'twoway', component: TwowayComponent},
   {path: 'ngclass', component: NgclassComponent},
   {path: 'ngstyle', component: NgstyleComponent},
+  {path: 'ngif', component: NgifComponent},
+  {path: 'ngswitch', component: NgswitchComponent},
+  {path: 'ngfor', component: NgforComponent},
+  {path: 'ref', component: RefComponent},
   {path: '', redirectTo:'home', pathMatch:'full'},
   {path:'**', component: HomeComponent}
 ];

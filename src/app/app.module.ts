@@ -15,6 +15,10 @@ import { OnewayStatementComponent } from './binding/oneway-statement.component';
 import { TwowayComponent } from './binding/twoway.component';
 import { NgclassComponent } from './binding/ngclass.component';
 import { NgstyleComponent } from './binding/ngstyle.component';
+import { NgifComponent } from './binding/ngif.component';
+import { NgswitchComponent } from './binding/ngswitch.component';
+import { NgforComponent } from './binding/ngfor.component';
+import { RefComponent } from './binding/ref.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +32,10 @@ import { NgstyleComponent } from './binding/ngstyle.component';
     TwowayComponent,
     NgclassComponent,
     NgstyleComponent,
+    NgifComponent,
+    NgswitchComponent,
+    NgforComponent,
+    RefComponent,
   ],
   imports: [
     BrowserModule,

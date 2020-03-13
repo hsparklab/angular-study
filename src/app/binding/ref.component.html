@@ -1,0 +1,18 @@
+<p>ref works!</p>
+<br/>
+
+<input #num1 type="number" value="{{init.num1}}">+
+<input #num2 type="number" value="{{init.num2}}" (input)="0">=
+{{num1.valueAsNumber + num2.valueAsNumber}}
+
+<br/>
+
+<input ref-number1 type="number" value="{{init.num1}}" (input)="init.num1 = $event.target.value">
++
+<input ref-number2 type="number" value="{{init.num2}}" (input)="init.num2 = number2.value">
+=
+{{num1.valueAsNumber + num2.valueAsNumber}}
+
+<br/>
+
+{{init | json}}cd
